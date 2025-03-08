@@ -3,27 +3,27 @@
         <div class="modal-content shadow-lg border-0">
 
             <div class="modal-header text-white" style="background-color: var(--bs-primary);">
-                <h5 class="modal-title" id="loginModalLabel">Iniciar Sesión</h5>
-                <button type="button" class="btn-close" disabled></button> <!-- La "X" sigue ahí, pero deshabilitada -->
+                <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                <button type="button" class="btn-close" disabled></button> 
             </div>
 
             <div class="modal-body" style="background-color: var(--bs-gray-100);">
                 <form id="loginForm" method="POST">
                     <div class="mb-3">
-                        <label for="username" class="form-label text-dark">Usuario</label>
+                        <label for="username" class="form-label text-dark">User</label>
                         <input type="text" class="form-control border-0 shadow-sm" id="username" name="username" placeholder="Ingrese su usuario" required>
                     </div>
                     <div class="mb-3">
-                        <label for="password" class="form-label text-dark">Contraseña</label>
+                        <label for="password" class="form-label text-dark">Password</label>
                         <input type="password" class="form-control border-0 shadow-sm" id="password" name="password" placeholder="Ingrese su contraseña" required>
                     </div>
-                    <button type="submit" class="btn text-white w-100" style="background-color: var(--bs-primary);">Ingresar</button>
+                    <button type="submit" class="btn text-white w-100" style="background-color: var(--bs-primary);">Login</button>
                 </form>
                 <div id="errorMessage" class="alert alert-danger mt-3 text-center shadow-sm d-none"></div>
             </div>
 
             <div class="modal-footer border-0" style="background-color: var(--bs-secondary);">
-                <button type="button" class="btn text-white w-100" style="background-color: var(--bs-gray-700);" disabled> Cerrar </button>
+                <button type="button" class="btn text-white w-100" style="background-color: var(--bs-gray-700);" disabled> Close </button>
             </div>
         </div>
     </div>
