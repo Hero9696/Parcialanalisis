@@ -1,4 +1,4 @@
-<section class="login">
+<section id="login">
     <div class="modal" id="loginModal">
         <div class="modal-content">
             <h2>Iniciar Sesión</h2>

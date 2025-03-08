@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "../models/AuthModel.php";
+require_once  __DIR__ . '/../views/modules/AuthModel.php';
 
 $authModel = new AuthModel();
 $error = "";
