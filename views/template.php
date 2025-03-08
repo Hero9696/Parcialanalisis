@@ -32,6 +32,7 @@ $path = TemplateController::path();
         include 'pages/portfolio/portfolio.php';
         include 'pages/contact/contact.php';
         include 'modules/footer.php';
+        include __DIR__ . '/pages/login/login.php';
         include 'modules/copyright.php';
         ?>
     </div>

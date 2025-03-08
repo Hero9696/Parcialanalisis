@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $pass = $_POST['password'];
     if ($authModel->validateUser($user, $pass)) {
         $_SESSION['loggedin'] = true;
-        header("Location: ../views/login.php");
+        header("Location: ../views/pages/login/login.php");
         exit();
     } else {
         $error = "Credenciales incorrectas";

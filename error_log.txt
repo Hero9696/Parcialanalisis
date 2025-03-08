@@ -156,3 +156,9 @@
 Stack trace:
 #0 {main}
   thrown in D:\7TOSEMESTRE\analisis\parcial\index.php on line 9
+[08-Mar-2025 21:47:31 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\7TOSEMESTRE\analisis\parcial\views\pages\login\login.php on line 2
+[08-Mar-2025 21:48:32 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\7TOSEMESTRE\analisis\parcial\views\pages\login\login.php on line 2
+[08-Mar-2025 21:48:34 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\7TOSEMESTRE\analisis\parcial\views\pages\login\login.php on line 2
+[08-Mar-2025 21:48:35 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\7TOSEMESTRE\analisis\parcial\views\pages\login\login.php on line 2
+[08-Mar-2025 21:51:14 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\7TOSEMESTRE\analisis\parcial\views\pages\login\login.php on line 2
+[08-Mar-2025 21:51:17 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\7TOSEMESTRE\analisis\parcial\views\pages\login\login.php on line 2
